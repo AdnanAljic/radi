@@ -1,0 +1,190 @@
+/* pozadine */
+	body{
+	background-image: url("masse.jpeg");
+		 background-repeat:no-repeat;
+
+   background-size:cover;
+	}		
+	#onama{
+		background-image: url("o_nama.jpg");
+		 background-repeat:no-repeat;
+
+   background-size:cover;
+	}
+	#autobody{
+		background-image: url("maslogo.png");
+		 background-repeat:no-repeat;
+
+   background-size:cover;
+	}
+	
+	
+#desni{
+	font-size:15pt;
+list-style-type: none;
+
+margin: 10 0 0 0 ;
+float:right;
+padding: 0;
+overflow: hidden;
+
+}
+#footer{
+	font-family:Times New Roman;
+	position:absolute;
+	bottom:5;
+	color:#7b7c7c;
+
+}
+#footero{
+	font-family:Times New Roman;
+	position:absolute;
+	bottom:5;
+	color:#E7EAF9;
+
+}
+
+#text{
+	position:relative;
+	float:left;
+	top:25%;
+	left:10%;
+	font-size:30pt;
+	color:#323031;
+	text-decoration: none;
+}
+#text1{
+	font-family:Times New Roman;
+	position:relative;
+	float:left;
+	top:-5%;
+	text-align:justify;
+	font-size:16pt;
+	color:#E7EAF9;
+	
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	opacity:0.8;
+
+}
+
+input[type=submit] {
+    background-color: #0C4596;
+   
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.container {
+	width:20%;
+	color: #E7EAF9;
+	font-size:14pt;
+   margin-bottom:10px;
+    background-color: transparent;
+    padding: 0px 20px 0px 50px ;
+}
+
+li {
+	float: right;
+}
+#kola{
+	width:100%;
+	height:100%;
+	
+	float:right;
+	margin-bottom:10px;
+	
+	
+	}
+#autol{
+	float:right;
+	width:45%;
+	height:40%;
+	display: block;
+	text-align: center;
+	
+}
+#autod{
+	
+	width:45%;
+	height:40%;
+	display: block;
+	text-align: center;
+	
+}
+
+
+li a {
+	font-family:Times New Roman;
+display: block;
+color: #333132;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+h1{ 
+margin:auto;
+}
+
+li a:hover{
+text-decoration: underline;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid black;
+  width: 300px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: relative;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  flaot:right;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#naziv{
+		position:relative;
+		top:-60;
+	}
+
+
